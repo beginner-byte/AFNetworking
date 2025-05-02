@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'AFNetworking'
-  s.version  = '3.2.3'
+  s.version  = '3.2.4'
   s.license  = 'MIT'
   s.summary  = 'A delightful iOS and OS X networking framework.'
   s.homepage = 'https://github.com/AFNetworking/AFNetworking'
@@ -76,7 +76,5 @@ EOS
     ss.public_header_files = 'UIKit+AFNetworking/*.h'
     ss.source_files = 'UIKit+AFNetworking'
   end
- s.resource_bundle = {
-    "AFNetworking_Privacy" => "PrivacyInfo.xcprivacy"
-  }
+  s.resources = ['PrivacyInfo.xcprivacy']
 end
