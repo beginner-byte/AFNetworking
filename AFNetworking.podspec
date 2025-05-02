@@ -77,6 +77,6 @@ EOS
     ss.source_files = 'UIKit+AFNetworking'
   end
  s.resource_bundle = {
-    "Protobuf_Privacy" => "PrivacyInfo.xcprivacy"
+    "AFNetworking_Privacy" => "PrivacyInfo.xcprivacy"
   }
 end
